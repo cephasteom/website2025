@@ -1,0 +1,70 @@
+:root {
+  --color-theme-1: #00f6ff; /* Laser Cyan */
+  --color-theme-2: #00ff9f; /* Hyper Neon Green */
+  --color-theme-3: #ff1fff; /* Ultraviolet Magenta */
+  --color-theme-4: #ff6c00;/* Blazing Neon Orange */    
+  --color-theme-5: #faff00;/* Electric Acid Yellow */
+  --color-yellow: #fdf6f0;  /* Warm Gold */
+  --color-grey-lighter: #fdf6f0; /* Blush White */
+  --color-grey-light: #e7dcd7;   /* Pale Rose Grey */
+  --color-grey-light-mid: #c8b8b2; /* Warm Mid Grey */
+  --color-grey-mid: #a89c96;       /* Soft Clay Grey */
+  --color-grey-dark: #7e6d66;      /* Cocoa Brown */
+  --color-grey-darker: #5e4f49;    /* Deep Earth Grey (moderated) */
+  --color-grey-darkest: #2f2521;   /* Muted Charcoal Brown */
+  --color-black: #15110f; /* Near-black with warm brown tone */
+  --color-white: #d4d4d4; /* Soft White */
+  --color-pink: #f8d7da; /* Blush Pink */
+  --color-box-shadow: rgba(60, 40, 40, 0.6); /* Warm Shadow */
+
+}
+
+body {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.25rem;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+}
+
+h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+h1 span {
+  font-weight: 400;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-theme-4);
+}
+
+*:focus-visible {
+  outline: 2px solid var(--color-theme-1);
+  outline-offset: 2px;
+}
