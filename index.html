@@ -2,21 +2,55 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Google Fonts Preconnect -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" defer href="https://fonts.googleapis.com">
+    <link rel="preconnect" defer href="https://fonts.gstatic.com" crossorigin>
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 
     <title>Cephas Teom</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Cephas Teom — Music Research, Quantum Computing, Live Coding">
+    <meta name="description" content="Artist and researcher Dr Peter Thomas (Cephas Teom) explores algorithmic music, quantum computing, live coding and web technologies. Projects include Zen, Q1Synth, Actias, and research on quantum computer music.">
+
+    <!-- Keywords (not hugely used today but harmless) -->
+    <meta name="keywords" content="Cephas Teom, Peter Thomas, algorithmic music, quantum computing music, live coding, browser instruments, WebAudio, quantum sound, Q1Synth, Zen, Actias, generative music, improvisation systems">
+
+    <!-- Author -->
+    <meta name="author" content="Peter Thomas (Cephas Teom)">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Cephas Teom — Music Research & Quantum Computer Music">
+    <meta property="og:description" content="Music researcher exploring algorithmic composition, unconventional computing, and quantum-inspired sound systems.">
+    <meta property="og:url" content="https://cephasteom.co.uk">
+    <meta property="og:site_name" content="Cephas Teom">
+    <!-- Optional: add an OG image -->
+    <!-- <meta property="og:image" content="https://cephasteom.co.uk/og-image.jpg"> -->
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cephas Teom — Music Research & Quantum Computer Music">
+    <meta name="twitter:description" content="Algorithmic music, live coding, and quantum computing research by Dr Peter Thomas.">
+    <!-- <meta name="twitter:image" content="https://cephasteom.co.uk/og-image.jpg"> -->
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://cephasteom.co.uk">
+
+    <!-- Theme colour (helps mobile address bar look clean) -->
+    <meta name="theme-color" content="#111111">
+
   </head>
   <body>
     <header>
-      <h1>Cephas Teom <span>| music, research, software</span></h1>
+      <h1>Cephas Teom <span>music research software</span></h1>
+      <button id="theme-toggle" aria-label="Toggle dark mode">
+      </button>
     </header>
 
     <hr />
@@ -24,7 +58,7 @@
     <section id="about">
       <h2>About</h2>
       <p>
-        Dr. Peter Thomas is an artist and researcher exploring algorithmic music, unconventional computing and web technologies. He develops open-source systems for sound design, composition, and performance, with an emphasis on spontaneity and improvisation. He performs and releases music under the pseudonym Cephas Teom, and is a founding member of cult post-folk ensemble The Nightjar.
+        Dr. Peter Thomas is an artist and researcher exploring algorithmic music, unconventional computing and web technologies. He develops open-source systems for sound design, composition, and performance, with an emphasis on spontaneity and improvisation. He performs and releases music under the pseudonym Cephas Teom, and is a co-founder of software lab <a target="_blank"href="https://lunar.build/">Lunar</a>.
       </p>
     </section>
 
@@ -104,7 +138,8 @@
     <hr />
 
     <footer>
-      <p>© 2025 Peter Thomas | petethomasmusique [at] gmail [dot] com</p>
+      <p>© 2025 Peter Thomas</p>
+      <p>petethomasmusique [at] gmail [dot] com</p>
     </footer>
 
     <script type="module" src="/src/main.js"></script>
