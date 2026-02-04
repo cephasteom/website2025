@@ -192,7 +192,7 @@ html.dark hr {
 }
 
 html.dark footer p {
-  color: var(--color-grey-light-mid);
+  color: var(--color-white);
 }
 
 html.dark * {
