@@ -72,6 +72,17 @@ header {
   align-items: center;
 }
 
+section:last-of-type {
+  margin-bottom: 2rem;
+}
+
+.footer {
+  margin: 2rem 0;
+}
+.footer p {
+  margin-bottom: 0;
+}
+
 ul {
   list-style: none;
   padding: 0;
